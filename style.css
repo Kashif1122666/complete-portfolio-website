@@ -295,4 +295,57 @@ span{
     }
 }
 /* resposivenes for mobiles */
+@media (max-width: 767px) {
+    .header {
+        padding: 20px 8%;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        padding: 20px 8%;
+        gap: 2em;
+    }
+
+    .home-content h3, .home-content h1 {
+        font-size: 28px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        width: 100%;
+        gap: 1em;
+    }
+
+    .img-box img {
+        width: 300px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 8% 5%;
+        gap: 5em;
+    }
+
+    .about-img img {
+        width: 250px;
+    }
+
+    .about-content h2 {
+        font-size: 32px;
+    }
+
+    .about-content h3 {
+        font-size: 42px;
+    }
+}
 
