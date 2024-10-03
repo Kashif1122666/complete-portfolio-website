@@ -20,6 +20,9 @@
     align-items: center;
     z-index: 100;
 }
+a{
+    text-decoration: none;
+}
 .logo{
     font-size: 25px;
     color: white;
